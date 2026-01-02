@@ -1,19 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="API Explorer - Discover, search, and bookmark APIs from a curated mega list">
-    <title>API Explorer | Discover APIs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+
+    <!-- Primary SEO Meta Tags -->
+    <title>API Explorer | Discover, Search & Bookmark 175+ APIs</title>
+    <meta name="title" content="API Explorer | Discover, Search & Bookmark 175+ APIs">
+    <meta name="description"
+        content="A developer-focused catalog to discover, search, and bookmark 175+ curated APIs across 18 categories including AI, Finance, Weather, and more. Built with vanilla HTML, CSS & JavaScript.">
+    <meta name="keywords"
+        content="API, APIs, API catalog, API directory, developer tools, REST API, web APIs, free APIs, public APIs, API list, API explorer">
+    <meta name="author" content="Nikesh Sundar">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://nikeshsundar.github.io/api-explorer/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nikeshsundar.github.io/api-explorer/">
+    <meta property="og:title" content="API Explorer | Discover, Search & Bookmark 175+ APIs">
+    <meta property="og:description"
+        content="A developer-focused catalog to discover, search, and bookmark 175+ curated APIs across 18 categories. Features real-time search, category filtering, and localStorage bookmarks.">
+    <meta property="og:image" content="https://nikeshsundar.github.io/api-explorer/og-image.png">
+    <meta property="og:site_name" content="API Explorer">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://nikeshsundar.github.io/api-explorer/">
+    <meta name="twitter:title" content="API Explorer | Discover, Search & Bookmark 175+ APIs">
+    <meta name="twitter:description"
+        content="A developer-focused catalog to discover, search, and bookmark 175+ curated APIs across 18 categories.">
+    <meta name="twitter:image" content="https://nikeshsundar.github.io/api-explorer/og-image.png">
+
+    <!-- Theme & Mobile -->
+    <meta name="theme-color" content="#0a0a0f">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
     <link rel="stylesheet" href="styles.css">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "API Explorer",
+        "description": "A developer-focused catalog to discover, search, and bookmark 175+ curated APIs",
+        "url": "https://nikeshsundar.github.io/api-explorer/",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires JavaScript",
+        "author": {
+            "@type": "Person",
+            "name": "Nikesh Sundar"
+        },
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        }
+    }
+    </script>
 </head>
+
 <body>
     <!-- Terminal Scanline Effect -->
     <div class="scanline"></div>
-    
+
     <!-- Header -->
     <header class="header">
         <div class="container">
@@ -43,13 +105,8 @@
             <section class="search-section">
                 <div class="search-wrapper">
                     <span class="search-prefix">$</span>
-                    <input 
-                        type="text" 
-                        id="searchInput" 
-                        class="search-input" 
-                        placeholder="search --api [query]"
-                        autocomplete="off"
-                    >
+                    <input type="text" id="searchInput" class="search-input" placeholder="search --api [query]"
+                        autocomplete="off">
                     <span class="search-cursor">|</span>
                 </div>
                 <p class="search-hint">
@@ -106,11 +163,13 @@
                 <span class="footer-bracket">}</span>
             </p>
             <p class="footer-credit">
-                Data sourced from <a href="https://github.com/cporter202/API-mega-list" target="_blank" rel="noopener">API Mega List</a>
+                Data sourced from <a href="https://github.com/cporter202/API-mega-list" target="_blank"
+                    rel="noopener">API Mega List</a>
             </p>
         </div>
     </footer>
 
     <script src="script.js"></script>
 </body>
+
 </html>
