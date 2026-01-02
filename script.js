@@ -88,14 +88,14 @@ function toggleBookmark(apiId) {
     }
     saveBookmarks();
     updateStats();
-    
+
     // Update button state
     const btn = document.querySelector(`[data-api-id="${apiId}"]`);
     if (btn) {
         btn.classList.toggle('active');
         btn.textContent = bookmarkedIDs.includes(apiId) ? '★' : '☆';
     }
-    
+
     // Re-filter if showing bookmarks only
     if (showBookmarksOnly) {
         filterAndRender();
@@ -108,27 +108,27 @@ function toggleBookmark(apiId) {
 function filterAndRender() {
     // Start with all APIs
     filteredAPIs = [...allAPIs];
-    
+
     // Filter by category
     if (activeCategory !== 'All') {
         filteredAPIs = filteredAPIs.filter(api => api.category === activeCategory);
     }
-    
+
     // Filter by search query
     if (searchQuery.trim()) {
         const query = searchQuery.toLowerCase();
-        filteredAPIs = filteredAPIs.filter(api => 
-            api.name.toLowerCase().includes(query) || 
+        filteredAPIs = filteredAPIs.filter(api =>
+            api.name.toLowerCase().includes(query) ||
             api.description.toLowerCase().includes(query) ||
             api.category.toLowerCase().includes(query)
         );
     }
-    
+
     // Filter by bookmarks
     if (showBookmarksOnly) {
         filteredAPIs = filteredAPIs.filter(api => bookmarkedIDs.includes(api.id));
     }
-    
+
     renderAPICards();
     updateResultCount();
 }
@@ -142,9 +142,9 @@ function renderCategories() {
     allAPIs.forEach(api => {
         categoryCounts[api.category] = (categoryCounts[api.category] || 0) + 1;
     });
-    
+
     const categories = ['All', ...Object.keys(categoryCounts).sort()];
-    
+
     elements.categoryPills.innerHTML = categories.map(cat => {
         const count = cat === 'All' ? allAPIs.length : categoryCounts[cat];
         const isActive = cat === activeCategory ? 'active' : '';
@@ -163,9 +163,9 @@ function renderAPICards() {
         elements.emptyState.classList.add('visible');
         return;
     }
-    
+
     elements.emptyState.classList.remove('visible');
-    
+
     elements.apiGrid.innerHTML = filteredAPIs.map(api => {
         const isBookmarked = bookmarkedIDs.includes(api.id);
         return `
@@ -203,30 +203,30 @@ function setupEventListeners() {
             filterAndRender();
         }, 300);
     });
-    
+
     // Category pills (event delegation)
     elements.categoryPills.addEventListener('click', (e) => {
         const pill = e.target.closest('.category-pill');
         if (!pill) return;
-        
+
         activeCategory = pill.dataset.category;
-        
+
         // Update active state
         document.querySelectorAll('.category-pill').forEach(p => p.classList.remove('active'));
         pill.classList.add('active');
-        
+
         filterAndRender();
     });
-    
+
     // Bookmark buttons (event delegation)
     elements.apiGrid.addEventListener('click', (e) => {
         const btn = e.target.closest('.bookmark-btn');
         if (!btn) return;
-        
+
         const apiId = btn.dataset.apiId;
         toggleBookmark(apiId);
     });
-    
+
     // Show All button
     elements.showAllBtn.addEventListener('click', () => {
         showBookmarksOnly = false;
@@ -234,7 +234,7 @@ function setupEventListeners() {
         elements.showBookmarksBtn.classList.remove('active');
         filterAndRender();
     });
-    
+
     // Show Bookmarks button
     elements.showBookmarksBtn.addEventListener('click', () => {
         showBookmarksOnly = true;
@@ -242,7 +242,7 @@ function setupEventListeners() {
         elements.showAllBtn.classList.remove('active');
         filterAndRender();
     });
-    
+
     // Keyboard shortcuts
     document.addEventListener('keydown', (e) => {
         // Focus search on '/' key

@@ -4,1231 +4,1967 @@
         "name": "OpenWeatherMap",
         "category": "Weather",
         "description": "Get current weather, forecasts, and historical data for any location worldwide with detailed meteorological information",
-        "url": "https://openweathermap.org/api"
+        "url": "https://openweathermap.org/api",
+        "featured": true
     },
     {
         "id": "weatherapi",
         "name": "WeatherAPI",
         "category": "Weather",
         "description": "Real-time weather, forecast, astronomy, time zone, and geolocation data API",
-        "url": "https://www.weatherapi.com/"
+        "url": "https://www.weatherapi.com/",
+        "featured": true
     },
     {
         "id": "visualcrossing",
         "name": "Visual Crossing Weather",
         "category": "Weather",
         "description": "Historical weather data, forecasts, and weather reports for any location",
-        "url": "https://www.visualcrossing.com/weather-api"
+        "url": "https://www.visualcrossing.com/weather-api",
+        "featured": true
     },
     {
         "id": "stormglass",
         "name": "Storm Glass",
         "category": "Weather",
         "description": "Marine weather data including tide, wave, and weather conditions for sailing and surfing",
-        "url": "https://stormglass.io/"
+        "url": "https://stormglass.io/",
+        "featured": true
     },
     {
         "id": "tomorrow-io",
         "name": "Tomorrow.io",
         "category": "Weather",
         "description": "Hyper-local weather intelligence with minute-by-minute forecasts and severe weather alerts",
-        "url": "https://www.tomorrow.io/weather-api/"
+        "url": "https://www.tomorrow.io/weather-api/",
+        "featured": true
     },
     {
         "id": "weatherbit",
         "name": "Weatherbit",
         "category": "Weather",
         "description": "Weather forecasts, current conditions, and historical weather data with air quality",
-        "url": "https://www.weatherbit.io/"
+        "url": "https://www.weatherbit.io/",
+        "featured": true
     },
     {
         "id": "aerisweather",
         "name": "AerisWeather",
         "category": "Weather",
         "description": "Comprehensive weather data with radar imagery, tropical storms, and severe weather tracking",
-        "url": "https://www.aerisweather.com/"
+        "url": "https://www.aerisweather.com/",
+        "featured": true
     },
     {
         "id": "openmeteo",
         "name": "Open-Meteo",
         "category": "Weather",
         "description": "Free weather API with hourly forecasts, no API key required for non-commercial use",
-        "url": "https://open-meteo.com/"
+        "url": "https://open-meteo.com/",
+        "featured": true
     },
     {
         "id": "alphavantage",
         "name": "Alpha Vantage",
         "category": "Finance",
         "description": "Free APIs for realtime and historical stock data, forex, cryptocurrencies, and technical indicators",
-        "url": "https://www.alphavantage.co/"
+        "url": "https://www.alphavantage.co/",
+        "featured": true
     },
     {
         "id": "coinmarketcap",
         "name": "CoinMarketCap",
         "category": "Finance",
         "description": "Cryptocurrency market data including prices, market cap, volume, and historical data",
-        "url": "https://coinmarketcap.com/api/"
+        "url": "https://coinmarketcap.com/api/",
+        "featured": true
     },
     {
         "id": "exchangerate",
         "name": "ExchangeRate-API",
         "category": "Finance",
         "description": "Free foreign exchange rates and currency conversion API with 161+ currencies",
-        "url": "https://www.exchangerate-api.com/"
+        "url": "https://www.exchangerate-api.com/",
+        "featured": true
     },
     {
         "id": "finnhub",
         "name": "Finnhub",
         "category": "Finance",
         "description": "Real-time stock prices, company financials, earnings, and alternative data",
-        "url": "https://finnhub.io/"
+        "url": "https://finnhub.io/",
+        "featured": true
     },
     {
         "id": "polygon",
         "name": "Polygon.io",
         "category": "Finance",
         "description": "Stock, options, forex, and crypto market data with real-time and historical APIs",
-        "url": "https://polygon.io/"
+        "url": "https://polygon.io/",
+        "featured": true
     },
     {
         "id": "coingecko",
         "name": "CoinGecko",
         "category": "Finance",
         "description": "Cryptocurrency data API with prices, market cap, trading volume, and developer metrics",
-        "url": "https://www.coingecko.com/en/api"
+        "url": "https://www.coingecko.com/en/api",
+        "featured": true
     },
     {
         "id": "iexcloud",
         "name": "IEX Cloud",
         "category": "Finance",
         "description": "Financial data platform with stock quotes, company data, and market statistics",
-        "url": "https://iexcloud.io/"
+        "url": "https://iexcloud.io/",
+        "featured": true
     },
     {
         "id": "stockdata",
         "name": "Stock Data API",
         "category": "Finance",
         "description": "Real-time and historical stock market data with technical indicators",
-        "url": "https://www.stockdata.org/"
+        "url": "https://www.stockdata.org/",
+        "featured": true
     },
     {
         "id": "twelve-data",
         "name": "Twelve Data",
         "category": "Finance",
         "description": "Financial market data covering stocks, forex, crypto, and ETFs with technical analysis",
-        "url": "https://twelvedata.com/"
+        "url": "https://twelvedata.com/",
+        "featured": true
     },
     {
         "id": "fixer",
         "name": "Fixer.io",
         "category": "Finance",
         "description": "Foreign exchange rates API with real-time and historical currency conversion",
-        "url": "https://fixer.io/"
+        "url": "https://fixer.io/",
+        "featured": true
     },
     {
         "id": "openai",
         "name": "OpenAI API",
         "category": "AI",
         "description": "Access GPT-4, DALL-E, Whisper and other AI models for text generation, image creation, and speech recognition",
-        "url": "https://platform.openai.com/docs/api-reference"
+        "url": "https://platform.openai.com/docs/api-reference",
+        "featured": true
     },
     {
         "id": "anthropic",
         "name": "Anthropic Claude",
         "category": "AI",
         "description": "Claude AI assistant API for conversations, analysis, and content generation",
-        "url": "https://www.anthropic.com/api"
+        "url": "https://www.anthropic.com/api",
+        "featured": true
     },
     {
         "id": "huggingface",
         "name": "Hugging Face",
         "category": "AI",
         "description": "Access thousands of ML models for NLP, computer vision, and audio processing",
-        "url": "https://huggingface.co/docs/api-inference"
+        "url": "https://huggingface.co/docs/api-inference",
+        "featured": true
     },
     {
         "id": "stability",
         "name": "Stability AI",
         "category": "AI",
         "description": "Stable Diffusion API for AI image generation and editing",
-        "url": "https://platform.stability.ai/"
+        "url": "https://platform.stability.ai/",
+        "featured": true
     },
     {
         "id": "cohere",
         "name": "Cohere",
         "category": "AI",
         "description": "NLP API for text generation, classification, semantic search, and embeddings",
-        "url": "https://docs.cohere.com/"
+        "url": "https://docs.cohere.com/",
+        "featured": true
     },
     {
         "id": "replicate",
         "name": "Replicate",
         "category": "AI",
         "description": "Run open-source machine learning models with a simple API",
-        "url": "https://replicate.com/docs"
+        "url": "https://replicate.com/docs",
+        "featured": true
     },
     {
         "id": "deepl",
         "name": "DeepL Translator",
         "category": "AI",
         "description": "Neural machine translation API supporting 30+ languages with exceptional quality",
-        "url": "https://www.deepl.com/pro-api"
+        "url": "https://www.deepl.com/pro-api",
+        "featured": true
     },
     {
         "id": "google-gemini",
         "name": "Google Gemini",
         "category": "AI",
         "description": "Google's multimodal AI model for text, image, and code understanding",
-        "url": "https://ai.google.dev/"
+        "url": "https://ai.google.dev/",
+        "featured": true
     },
     {
         "id": "mistral",
         "name": "Mistral AI",
         "category": "AI",
         "description": "Open-weight large language models for various AI tasks",
-        "url": "https://docs.mistral.ai/"
+        "url": "https://docs.mistral.ai/",
+        "featured": true
     },
     {
         "id": "groq",
         "name": "Groq",
         "category": "AI",
         "description": "Ultra-fast LLM inference API with Llama, Mixtral, and Gemma models",
-        "url": "https://groq.com/"
+        "url": "https://groq.com/",
+        "featured": true
     },
     {
         "id": "together-ai",
         "name": "Together AI",
         "category": "AI",
         "description": "Run and fine-tune open-source AI models at scale",
-        "url": "https://www.together.ai/"
+        "url": "https://www.together.ai/",
+        "featured": true
     },
     {
         "id": "perplexity",
         "name": "Perplexity AI",
         "category": "AI",
         "description": "AI-powered search and answer engine with real-time web access",
-        "url": "https://docs.perplexity.ai/"
+        "url": "https://docs.perplexity.ai/",
+        "featured": true
     },
     {
         "id": "elevenlabs",
         "name": "ElevenLabs",
         "category": "AI",
         "description": "AI voice generation and text-to-speech with natural-sounding voices",
-        "url": "https://elevenlabs.io/docs"
+        "url": "https://elevenlabs.io/docs",
+        "featured": true
     },
     {
         "id": "assemblyai",
         "name": "AssemblyAI",
         "category": "AI",
         "description": "Speech-to-text API with speaker diarization and sentiment analysis",
-        "url": "https://www.assemblyai.com/"
+        "url": "https://www.assemblyai.com/",
+        "featured": true
     },
     {
         "id": "runpod",
         "name": "RunPod",
         "category": "AI",
         "description": "GPU cloud platform for running AI models with serverless endpoints",
-        "url": "https://www.runpod.io/"
+        "url": "https://www.runpod.io/",
+        "featured": true
     },
     {
         "id": "newsapi",
         "name": "NewsAPI",
         "category": "News",
         "description": "Search worldwide news with code, get breaking news headlines and articles",
-        "url": "https://newsapi.org/"
+        "url": "https://newsapi.org/",
+        "featured": true
     },
     {
         "id": "gnews",
         "name": "GNews",
         "category": "News",
         "description": "Search for news articles from various sources worldwide",
-        "url": "https://gnews.io/"
+        "url": "https://gnews.io/",
+        "featured": true
     },
     {
         "id": "mediastack",
         "name": "Mediastack",
         "category": "News",
         "description": "Free news API returning live headlines from 7,500+ sources",
-        "url": "https://mediastack.com/"
+        "url": "https://mediastack.com/",
+        "featured": true
     },
     {
         "id": "currentsapi",
         "name": "Currents API",
         "category": "News",
         "description": "Real-time trending news aggregated from various sources",
-        "url": "https://currentsapi.services/en"
+        "url": "https://currentsapi.services/en",
+        "featured": true
     },
     {
         "id": "thenewsapi",
         "name": "TheNewsAPI",
         "category": "News",
         "description": "Worldwide news search and live headlines API with sentiment analysis",
-        "url": "https://www.thenewsapi.com/"
+        "url": "https://www.thenewsapi.com/",
+        "featured": true
     },
     {
         "id": "newscatcher",
         "name": "Newscatcher",
         "category": "News",
         "description": "News aggregation API with articles from 60,000+ web sources",
-        "url": "https://newscatcherapi.com/"
+        "url": "https://newscatcherapi.com/",
+        "featured": true
     },
     {
         "id": "nytimes",
         "name": "New York Times",
         "category": "News",
         "description": "Access NYT articles, book reviews, movie reviews, and top stories",
-        "url": "https://developer.nytimes.com/apis"
+        "url": "https://developer.nytimes.com/apis",
+        "featured": true
     },
     {
         "id": "guardian",
         "name": "The Guardian",
         "category": "News",
         "description": "Access all Guardian content back to 1999 with full article text",
-        "url": "https://open-platform.theguardian.com/"
+        "url": "https://open-platform.theguardian.com/",
+        "featured": true
     },
     {
         "id": "sendgrid",
         "name": "SendGrid",
         "category": "Utilities",
         "description": "Email delivery service with APIs for sending transactional and marketing emails",
-        "url": "https://sendgrid.com/docs/api-reference/"
+        "url": "https://sendgrid.com/docs/api-reference/",
+        "featured": true
     },
     {
         "id": "twilio",
         "name": "Twilio",
         "category": "Utilities",
         "description": "Communication APIs for SMS, voice calls, video, and WhatsApp messaging",
-        "url": "https://www.twilio.com/docs/usage/api"
+        "url": "https://www.twilio.com/docs/usage/api",
+        "featured": true
     },
     {
         "id": "ipinfo",
         "name": "IPinfo",
         "category": "Utilities",
         "description": "IP geolocation API providing location, ASN, carrier, and privacy detection",
-        "url": "https://ipinfo.io/"
+        "url": "https://ipinfo.io/",
+        "featured": true
     },
     {
         "id": "qrcode",
         "name": "QR Code Generator",
         "category": "Utilities",
         "description": "Generate QR codes programmatically with customizable size and format",
-        "url": "https://goqr.me/api/"
+        "url": "https://goqr.me/api/",
+        "featured": true
     },
     {
         "id": "pdfmonkey",
         "name": "PDFMonkey",
         "category": "Utilities",
         "description": "Generate PDF documents from HTML templates via API",
-        "url": "https://www.pdfmonkey.io/"
+        "url": "https://www.pdfmonkey.io/",
+        "featured": true
     },
     {
         "id": "hunter",
         "name": "Hunter.io",
         "category": "Utilities",
         "description": "Find and verify professional email addresses from domains",
-        "url": "https://hunter.io/api"
+        "url": "https://hunter.io/api",
+        "featured": true
     },
     {
         "id": "urlshortener",
         "name": "Bitly",
         "category": "Utilities",
         "description": "URL shortening API with click tracking and analytics",
-        "url": "https://dev.bitly.com/"
+        "url": "https://dev.bitly.com/",
+        "featured": true
     },
     {
         "id": "randomuser",
         "name": "Random User Generator",
         "category": "Utilities",
         "description": "Generate random user data for testing and prototyping",
-        "url": "https://randomuser.me/"
+        "url": "https://randomuser.me/",
+        "featured": true
     },
     {
         "id": "unsplash",
         "name": "Unsplash",
         "category": "Utilities",
         "description": "Beautiful free images and photos via API",
-        "url": "https://unsplash.com/developers"
+        "url": "https://unsplash.com/developers",
+        "featured": true
     },
     {
         "id": "pexels",
         "name": "Pexels",
         "category": "Utilities",
         "description": "Free stock photos and videos API",
-        "url": "https://www.pexels.com/api/"
+        "url": "https://www.pexels.com/api/",
+        "featured": true
     },
     {
         "id": "ip-api",
         "name": "IP-API",
         "category": "Utilities",
         "description": "Free geolocation API for IP addresses",
-        "url": "https://ip-api.com/"
+        "url": "https://ip-api.com/",
+        "featured": true
     },
     {
         "id": "dictionaryapi",
         "name": "Free Dictionary API",
         "category": "Utilities",
         "description": "English dictionary with definitions, phonetics, and examples",
-        "url": "https://dictionaryapi.dev/"
+        "url": "https://dictionaryapi.dev/",
+        "featured": true
     },
     {
         "id": "restcountries",
         "name": "REST Countries",
         "category": "Utilities",
         "description": "Get information about countries including population, languages, and currencies",
-        "url": "https://restcountries.com/"
+        "url": "https://restcountries.com/",
+        "featured": true
     },
     {
         "id": "cloudinary",
         "name": "Cloudinary",
         "category": "Utilities",
         "description": "Image and video management API with transformations and optimization",
-        "url": "https://cloudinary.com/documentation"
+        "url": "https://cloudinary.com/documentation",
+        "featured": true
     },
     {
         "id": "abstractapi",
         "name": "AbstractAPI",
         "category": "Utilities",
         "description": "Suite of APIs for IP geolocation, email validation, and more",
-        "url": "https://www.abstractapi.com/"
+        "url": "https://www.abstractapi.com/",
+        "featured": true
     },
     {
         "id": "mailgun",
         "name": "Mailgun",
         "category": "Utilities",
         "description": "Email API for sending, receiving, and tracking emails",
-        "url": "https://www.mailgun.com/"
+        "url": "https://www.mailgun.com/",
+        "featured": true
     },
     {
         "id": "calendarific",
         "name": "Calendarific",
         "category": "Utilities",
         "description": "Public holidays and observances API for 230+ countries",
-        "url": "https://calendarific.com/"
+        "url": "https://calendarific.com/",
+        "featured": true
     },
     {
         "id": "remove-bg",
         "name": "Remove.bg",
         "category": "Utilities",
         "description": "Remove image backgrounds automatically with AI",
-        "url": "https://www.remove.bg/api"
+        "url": "https://www.remove.bg/api",
+        "featured": true
     },
     {
         "id": "tinypng",
         "name": "TinyPNG",
         "category": "Utilities",
         "description": "Smart image compression API for PNG and JPEG files",
-        "url": "https://tinypng.com/developers"
+        "url": "https://tinypng.com/developers",
+        "featured": true
     },
     {
         "id": "twitter",
         "name": "Twitter/X API",
         "category": "Social Media",
         "description": "Access Twitter data, post tweets, and build integrations with the platform",
-        "url": "https://developer.twitter.com/en/docs"
+        "url": "https://developer.twitter.com/en/docs",
+        "featured": true
     },
     {
         "id": "discord",
         "name": "Discord API",
         "category": "Social Media",
         "description": "Build bots and integrations for Discord servers and communities",
-        "url": "https://discord.com/developers/docs"
+        "url": "https://discord.com/developers/docs",
+        "featured": true
     },
     {
         "id": "reddit",
         "name": "Reddit API",
         "category": "Social Media",
         "description": "Access Reddit posts, comments, user data, and build Reddit applications",
-        "url": "https://www.reddit.com/dev/api"
+        "url": "https://www.reddit.com/dev/api",
+        "featured": true
     },
     {
         "id": "youtube",
         "name": "YouTube Data API",
         "category": "Social Media",
         "description": "Search videos, manage playlists, and access YouTube channel data",
-        "url": "https://developers.google.com/youtube/v3"
+        "url": "https://developers.google.com/youtube/v3",
+        "featured": true
     },
     {
         "id": "linkedin",
         "name": "LinkedIn API",
         "category": "Social Media",
         "description": "Professional network integration for profiles, companies, and job listings",
-        "url": "https://developer.linkedin.com/docs"
+        "url": "https://developer.linkedin.com/docs",
+        "featured": true
     },
     {
         "id": "instagram-graph",
         "name": "Instagram Graph API",
         "category": "Social Media",
         "description": "Access Instagram business and creator account data",
-        "url": "https://developers.facebook.com/docs/instagram-api"
+        "url": "https://developers.facebook.com/docs/instagram-api",
+        "featured": true
     },
     {
         "id": "facebook-graph",
         "name": "Facebook Graph API",
         "category": "Social Media",
         "description": "Build apps that interact with Facebook pages, groups, and users",
-        "url": "https://developers.facebook.com/docs/graph-api"
+        "url": "https://developers.facebook.com/docs/graph-api",
+        "featured": true
     },
     {
         "id": "telegram-bot",
         "name": "Telegram Bot API",
         "category": "Social Media",
         "description": "Create bots for Telegram with messaging, inline queries, and payments",
-        "url": "https://core.telegram.org/bots/api"
+        "url": "https://core.telegram.org/bots/api",
+        "featured": true
     },
     {
         "id": "slack",
         "name": "Slack API",
         "category": "Social Media",
         "description": "Build apps and integrations for Slack workspaces",
-        "url": "https://api.slack.com/"
+        "url": "https://api.slack.com/",
+        "featured": true
     },
     {
         "id": "pinterest",
         "name": "Pinterest API",
         "category": "Social Media",
         "description": "Access pins, boards, and user data from Pinterest",
-        "url": "https://developers.pinterest.com/"
+        "url": "https://developers.pinterest.com/",
+        "featured": true
     },
     {
         "id": "tiktok",
         "name": "TikTok API",
         "category": "Social Media",
         "description": "Access TikTok video data and build TikTok integrations",
-        "url": "https://developers.tiktok.com/"
+        "url": "https://developers.tiktok.com/",
+        "featured": true
     },
     {
         "id": "mastodon",
         "name": "Mastodon API",
         "category": "Social Media",
         "description": "Interact with Mastodon instances for decentralized social networking",
-        "url": "https://docs.joinmastodon.org/api/"
+        "url": "https://docs.joinmastodon.org/api/",
+        "featured": true
     },
     {
         "id": "spotify",
         "name": "Spotify Web API",
         "category": "Entertainment",
         "description": "Access music metadata, playlists, albums, and user listening data",
-        "url": "https://developer.spotify.com/documentation/web-api"
+        "url": "https://developer.spotify.com/documentation/web-api",
+        "featured": true
     },
     {
         "id": "tmdb",
         "name": "TMDB (The Movie Database)",
         "category": "Entertainment",
         "description": "Movie and TV show metadata, images, and ratings database",
-        "url": "https://developers.themoviedb.org/3"
+        "url": "https://developers.themoviedb.org/3",
+        "featured": true
     },
     {
         "id": "rawg",
         "name": "RAWG Video Games",
         "category": "Entertainment",
         "description": "Video game database with 500,000+ games, ratings, and metadata",
-        "url": "https://rawg.io/apidocs"
+        "url": "https://rawg.io/apidocs",
+        "featured": true
     },
     {
         "id": "igdb",
         "name": "IGDB",
         "category": "Entertainment",
         "description": "Internet Game Database for video game data and metadata",
-        "url": "https://api-docs.igdb.com/"
+        "url": "https://api-docs.igdb.com/",
+        "featured": true
     },
     {
         "id": "tvmaze",
         "name": "TVMaze",
         "category": "Entertainment",
         "description": "TV show data including episodes, cast, and airing schedules",
-        "url": "https://www.tvmaze.com/api"
+        "url": "https://www.tvmaze.com/api",
+        "featured": true
     },
     {
         "id": "openlibrary",
         "name": "Open Library",
         "category": "Entertainment",
         "description": "Book data with covers, descriptions, and reading lists",
-        "url": "https://openlibrary.org/developers/api"
+        "url": "https://openlibrary.org/developers/api",
+        "featured": true
     },
     {
         "id": "giphy",
         "name": "GIPHY",
         "category": "Entertainment",
         "description": "Search and share GIFs and stickers",
-        "url": "https://developers.giphy.com/docs/api/"
+        "url": "https://developers.giphy.com/docs/api/",
+        "featured": true
     },
     {
         "id": "jokeapi",
         "name": "JokeAPI",
         "category": "Entertainment",
         "description": "Programming jokes and random jokes API",
-        "url": "https://jokeapi.dev/"
+        "url": "https://jokeapi.dev/",
+        "featured": true
     },
     {
         "id": "quotable",
         "name": "Quotable",
         "category": "Entertainment",
         "description": "Free API for inspirational and famous quotes",
-        "url": "https://github.com/lukePeavey/quotable"
+        "url": "https://github.com/lukePeavey/quotable",
+        "featured": true
     },
     {
         "id": "catfacts",
         "name": "Cat Facts",
         "category": "Entertainment",
         "description": "Random cat facts API for fun applications",
-        "url": "https://catfact.ninja/"
+        "url": "https://catfact.ninja/",
+        "featured": true
     },
     {
         "id": "pokeapi",
-        "name": "PokéAPI",
+        "name": "Pok\u00e9API",
         "category": "Entertainment",
-        "description": "All Pokémon data in one place - species, abilities, moves, and more",
-        "url": "https://pokeapi.co/"
+        "description": "All Pok\u00e9mon data in one place - species, abilities, moves, and more",
+        "url": "https://pokeapi.co/",
+        "featured": true
     },
     {
         "id": "omdb",
         "name": "OMDb API",
         "category": "Entertainment",
         "description": "Movie information and poster images from IMDb",
-        "url": "https://www.omdbapi.com/"
+        "url": "https://www.omdbapi.com/",
+        "featured": true
     },
     {
         "id": "lastfm",
         "name": "Last.fm API",
         "category": "Entertainment",
         "description": "Music discovery data including artists, albums, and listening stats",
-        "url": "https://www.last.fm/api"
+        "url": "https://www.last.fm/api",
+        "featured": true
     },
     {
         "id": "deezer",
         "name": "Deezer API",
         "category": "Entertainment",
         "description": "Music streaming data with tracks, artists, and playlists",
-        "url": "https://developers.deezer.com/"
+        "url": "https://developers.deezer.com/",
+        "featured": true
     },
     {
         "id": "jikan",
         "name": "Jikan (MyAnimeList)",
         "category": "Entertainment",
         "description": "Anime and manga data from MyAnimeList",
-        "url": "https://jikan.moe/"
+        "url": "https://jikan.moe/",
+        "featured": true
     },
     {
         "id": "steam",
         "name": "Steam Web API",
         "category": "Entertainment",
         "description": "Access Steam game data, player stats, and achievements",
-        "url": "https://steamcommunity.com/dev"
+        "url": "https://steamcommunity.com/dev",
+        "featured": true
     },
     {
         "id": "boardgamegeek",
         "name": "BoardGameGeek",
         "category": "Entertainment",
         "description": "Board game data including ratings, reviews, and game details",
-        "url": "https://boardgamegeek.com/wiki/page/BGG_XML_API2"
+        "url": "https://boardgamegeek.com/wiki/page/BGG_XML_API2",
+        "featured": true
     },
     {
         "id": "formula1",
         "name": "Ergast F1 API",
         "category": "Entertainment",
         "description": "Formula 1 race results, standings, and historical data",
-        "url": "https://ergast.com/mrd/"
+        "url": "https://ergast.com/mrd/",
+        "featured": true
     },
     {
         "id": "github",
         "name": "GitHub API",
         "category": "Developer Tools",
         "description": "Access repositories, users, issues, pull requests, and GitHub actions",
-        "url": "https://docs.github.com/en/rest"
+        "url": "https://docs.github.com/en/rest",
+        "featured": true
     },
     {
         "id": "gitlab",
         "name": "GitLab API",
         "category": "Developer Tools",
         "description": "Interact with GitLab features including projects, merge requests, and CI/CD",
-        "url": "https://docs.gitlab.com/ee/api/"
+        "url": "https://docs.gitlab.com/ee/api/",
+        "featured": true
     },
     {
         "id": "npm",
         "name": "npm Registry API",
         "category": "Developer Tools",
         "description": "Access npm package metadata, downloads, and version information",
-        "url": "https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md"
+        "url": "https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md",
+        "featured": true
     },
     {
         "id": "caniuse",
         "name": "Can I Use",
         "category": "Developer Tools",
         "description": "Browser support data for web technologies and CSS features",
-        "url": "https://caniuse.com/"
+        "url": "https://caniuse.com/",
+        "featured": true
     },
     {
         "id": "wakatime",
         "name": "WakaTime",
         "category": "Developer Tools",
         "description": "Automatic programming metrics and time tracking for developers",
-        "url": "https://wakatime.com/developers"
+        "url": "https://wakatime.com/developers",
+        "featured": true
     },
     {
         "id": "jsonplaceholder",
         "name": "JSONPlaceholder",
         "category": "Developer Tools",
         "description": "Free fake REST API for testing and prototyping",
-        "url": "https://jsonplaceholder.typicode.com/"
+        "url": "https://jsonplaceholder.typicode.com/",
+        "featured": true
     },
     {
         "id": "httpbin",
         "name": "httpbin",
         "category": "Developer Tools",
         "description": "HTTP request and response service for testing HTTP clients",
-        "url": "https://httpbin.org/"
+        "url": "https://httpbin.org/",
+        "featured": true
     },
     {
         "id": "reqres",
         "name": "ReqRes",
         "category": "Developer Tools",
         "description": "Test REST API with realistic user data for front-end development",
-        "url": "https://reqres.in/"
+        "url": "https://reqres.in/",
+        "featured": true
     },
     {
         "id": "mockaroo",
         "name": "Mockaroo",
         "category": "Developer Tools",
         "description": "Generate realistic test data in various formats",
-        "url": "https://www.mockaroo.com/"
+        "url": "https://www.mockaroo.com/",
+        "featured": true
     },
     {
         "id": "postman-echo",
         "name": "Postman Echo",
         "category": "Developer Tools",
         "description": "Test API service that echoes back request data",
-        "url": "https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65"
+        "url": "https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65",
+        "featured": true
     },
     {
         "id": "libraries-io",
         "name": "Libraries.io",
         "category": "Developer Tools",
         "description": "Package dependency and version data across multiple ecosystems",
-        "url": "https://libraries.io/api"
+        "url": "https://libraries.io/api",
+        "featured": true
     },
     {
         "id": "bundlephobia",
         "name": "Bundlephobia",
         "category": "Developer Tools",
         "description": "Find the cost of adding npm packages to your bundle",
-        "url": "https://bundlephobia.com/"
+        "url": "https://bundlephobia.com/",
+        "featured": true
     },
     {
         "id": "shields-io",
         "name": "Shields.io",
         "category": "Developer Tools",
         "description": "Generate dynamic badges for projects and services",
-        "url": "https://shields.io/"
+        "url": "https://shields.io/",
+        "featured": true
     },
     {
         "id": "ipify",
         "name": "ipify",
         "category": "Developer Tools",
         "description": "Simple public IP address API",
-        "url": "https://www.ipify.org/"
+        "url": "https://www.ipify.org/",
+        "featured": true
     },
     {
         "id": "worldbank",
         "name": "World Bank Data",
         "category": "Data & Analytics",
         "description": "Economic and development indicators from countries worldwide",
-        "url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392"
+        "url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392",
+        "featured": true
     },
     {
         "id": "datausa",
         "name": "Data USA",
         "category": "Data & Analytics",
         "description": "US public data covering demographics, economy, and education",
-        "url": "https://datausa.io/about/api/"
+        "url": "https://datausa.io/about/api/",
+        "featured": true
     },
     {
         "id": "openaq",
         "name": "OpenAQ",
         "category": "Data & Analytics",
         "description": "Real-time and historical air quality data from around the world",
-        "url": "https://docs.openaq.org/"
+        "url": "https://docs.openaq.org/",
+        "featured": true
     },
     {
         "id": "covid19",
         "name": "COVID-19 API",
         "category": "Data & Analytics",
         "description": "Global COVID-19 statistics and historical data by country",
-        "url": "https://disease.sh/docs/"
+        "url": "https://disease.sh/docs/",
+        "featured": true
     },
     {
         "id": "usaspending",
         "name": "USAspending",
         "category": "Data & Analytics",
         "description": "US government spending data and federal contract information",
-        "url": "https://api.usaspending.gov/"
+        "url": "https://api.usaspending.gov/",
+        "featured": true
     },
     {
         "id": "data-gov",
         "name": "Data.gov",
         "category": "Data & Analytics",
         "description": "US government open data with thousands of datasets",
-        "url": "https://www.data.gov/developers/apis"
+        "url": "https://www.data.gov/developers/apis",
+        "featured": true
     },
     {
         "id": "eurostat",
         "name": "Eurostat",
         "category": "Data & Analytics",
         "description": "European Union statistics covering economy, population, and trade",
-        "url": "https://ec.europa.eu/eurostat/web/main/data/web-services"
+        "url": "https://ec.europa.eu/eurostat/web/main/data/web-services",
+        "featured": true
     },
     {
         "id": "census",
         "name": "US Census Bureau",
         "category": "Data & Analytics",
         "description": "American demographic, economic, and geographic data",
-        "url": "https://www.census.gov/data/developers/data-sets.html"
+        "url": "https://www.census.gov/data/developers/data-sets.html",
+        "featured": true
     },
     {
         "id": "fred",
         "name": "FRED (Federal Reserve)",
         "category": "Data & Analytics",
         "description": "Economic data from the Federal Reserve Bank of St. Louis",
-        "url": "https://fred.stlouisfed.org/docs/api/fred/"
+        "url": "https://fred.stlouisfed.org/docs/api/fred/",
+        "featured": true
     },
     {
         "id": "numbersapi",
         "name": "Numbers API",
         "category": "Data & Analytics",
         "description": "Interesting facts about numbers, dates, and years",
-        "url": "http://numbersapi.com/"
+        "url": "http://numbersapi.com/",
+        "featured": true
     },
     {
         "id": "fda",
         "name": "openFDA",
         "category": "Data & Analytics",
         "description": "FDA drug, device, and food recall data",
-        "url": "https://open.fda.gov/apis/"
+        "url": "https://open.fda.gov/apis/",
+        "featured": true
     },
     {
         "id": "nasa",
         "name": "NASA APIs",
         "category": "Data & Analytics",
         "description": "Space imagery, Mars rover photos, and astronomy picture of the day",
-        "url": "https://api.nasa.gov/"
+        "url": "https://api.nasa.gov/",
+        "featured": true
     },
     {
         "id": "googlemaps",
         "name": "Google Maps Platform",
         "category": "Maps & Location",
         "description": "Maps, geocoding, directions, places, and street view APIs",
-        "url": "https://developers.google.com/maps/documentation"
+        "url": "https://developers.google.com/maps/documentation",
+        "featured": true
     },
     {
         "id": "mapbox",
         "name": "Mapbox",
         "category": "Maps & Location",
         "description": "Custom maps, geocoding, navigation, and location search",
-        "url": "https://docs.mapbox.com/api/"
+        "url": "https://docs.mapbox.com/api/",
+        "featured": true
     },
     {
         "id": "openstreetmap",
         "name": "OpenStreetMap",
         "category": "Maps & Location",
         "description": "Free, editable map of the world with API access",
-        "url": "https://wiki.openstreetmap.org/wiki/API"
+        "url": "https://wiki.openstreetmap.org/wiki/API",
+        "featured": true
     },
     {
         "id": "positionstack",
         "name": "PositionStack",
         "category": "Maps & Location",
         "description": "Forward and reverse geocoding API for address lookup",
-        "url": "https://positionstack.com/"
+        "url": "https://positionstack.com/",
+        "featured": true
     },
     {
         "id": "nominatim",
         "name": "Nominatim",
         "category": "Maps & Location",
         "description": "Free geocoding with OpenStreetMap data",
-        "url": "https://nominatim.org/release-docs/develop/api/Overview/"
+        "url": "https://nominatim.org/release-docs/develop/api/Overview/",
+        "featured": true
     },
     {
         "id": "here",
         "name": "HERE Location Services",
         "category": "Maps & Location",
         "description": "Maps, routing, geocoding, and traffic APIs",
-        "url": "https://developer.here.com/"
+        "url": "https://developer.here.com/",
+        "featured": true
     },
     {
         "id": "tomtom",
         "name": "TomTom Maps API",
         "category": "Maps & Location",
         "description": "Maps, traffic, routing, and geofencing services",
-        "url": "https://developer.tomtom.com/"
+        "url": "https://developer.tomtom.com/",
+        "featured": true
     },
     {
         "id": "what3words",
         "name": "what3words",
         "category": "Maps & Location",
         "description": "Convert coordinates to 3-word addresses and vice versa",
-        "url": "https://developer.what3words.com/"
+        "url": "https://developer.what3words.com/",
+        "featured": true
     },
     {
         "id": "opencage",
         "name": "OpenCage Geocoding",
         "category": "Maps & Location",
         "description": "Forward and reverse geocoding using open data",
-        "url": "https://opencagedata.com/"
+        "url": "https://opencagedata.com/",
+        "featured": true
     },
     {
         "id": "geoapify",
         "name": "Geoapify",
         "category": "Maps & Location",
         "description": "Maps, geocoding, routing, and places APIs",
-        "url": "https://www.geoapify.com/"
+        "url": "https://www.geoapify.com/",
+        "featured": true
     },
     {
         "id": "rapidapi",
         "name": "RapidAPI Hub",
         "category": "API Marketplaces",
         "description": "World's largest API marketplace with 40,000+ APIs",
-        "url": "https://rapidapi.com/"
+        "url": "https://rapidapi.com/",
+        "featured": true
     },
     {
         "id": "apilayer",
         "name": "APILayer",
         "category": "API Marketplaces",
         "description": "Collection of production-ready APIs for various use cases",
-        "url": "https://apilayer.com/"
+        "url": "https://apilayer.com/",
+        "featured": true
     },
     {
         "id": "publicapis",
         "name": "Public APIs",
         "category": "API Marketplaces",
         "description": "Curated list of free APIs for development",
-        "url": "https://api.publicapis.org/"
+        "url": "https://api.publicapis.org/",
+        "featured": true
     },
     {
         "id": "apify",
         "name": "Apify",
         "category": "API Marketplaces",
         "description": "Web scraping and automation platform with pre-built actors",
-        "url": "https://apify.com/"
+        "url": "https://apify.com/",
+        "featured": true
     },
     {
         "id": "zapier-nla",
         "name": "Zapier NLA",
         "category": "Automation",
         "description": "Natural Language Actions to trigger Zapier automations",
-        "url": "https://nla.zapier.com/"
+        "url": "https://nla.zapier.com/",
+        "featured": true
     },
     {
         "id": "make",
         "name": "Make (Integromat)",
         "category": "Automation",
         "description": "Visual automation platform connecting apps and services",
-        "url": "https://www.make.com/en/api-documentation"
+        "url": "https://www.make.com/en/api-documentation",
+        "featured": true
     },
     {
         "id": "n8n",
         "name": "n8n",
         "category": "Automation",
         "description": "Open-source workflow automation with self-hosted option",
-        "url": "https://docs.n8n.io/api/"
+        "url": "https://docs.n8n.io/api/",
+        "featured": true
     },
     {
         "id": "pabbly",
         "name": "Pabbly Connect",
         "category": "Automation",
         "description": "Automation platform with unlimited workflows and operations",
-        "url": "https://www.pabbly.com/"
+        "url": "https://www.pabbly.com/",
+        "featured": true
     },
     {
         "id": "airtable",
         "name": "Airtable API",
         "category": "Automation",
         "description": "Database and spreadsheet hybrid with full API access",
-        "url": "https://airtable.com/developers/web/api/introduction"
+        "url": "https://airtable.com/developers/web/api/introduction",
+        "featured": true
     },
     {
         "id": "notion",
         "name": "Notion API",
         "category": "Automation",
         "description": "Access and modify Notion workspaces, databases, and pages",
-        "url": "https://developers.notion.com/"
+        "url": "https://developers.notion.com/",
+        "featured": true
     },
     {
         "id": "trello",
         "name": "Trello API",
         "category": "Automation",
         "description": "Manage Trello boards, lists, and cards programmatically",
-        "url": "https://developer.atlassian.com/cloud/trello/"
+        "url": "https://developer.atlassian.com/cloud/trello/",
+        "featured": true
     },
     {
         "id": "asana",
         "name": "Asana API",
         "category": "Automation",
         "description": "Project management API for tasks, projects, and teams",
-        "url": "https://developers.asana.com/docs"
+        "url": "https://developers.asana.com/docs",
+        "featured": true
     },
     {
         "id": "monday",
         "name": "Monday.com API",
         "category": "Automation",
         "description": "Work management platform API for boards and items",
-        "url": "https://developer.monday.com/"
+        "url": "https://developer.monday.com/",
+        "featured": true
     },
     {
         "id": "clickup",
         "name": "ClickUp API",
         "category": "Automation",
         "description": "Productivity platform API for tasks and workspaces",
-        "url": "https://clickup.com/api"
+        "url": "https://clickup.com/api",
+        "featured": true
     },
     {
         "id": "stripe",
         "name": "Stripe API",
         "category": "Payments",
         "description": "Payment processing API for online businesses",
-        "url": "https://stripe.com/docs/api"
+        "url": "https://stripe.com/docs/api",
+        "featured": true
     },
     {
         "id": "paypal",
         "name": "PayPal REST API",
         "category": "Payments",
         "description": "Accept payments, send payouts, and manage subscriptions",
-        "url": "https://developer.paypal.com/docs/api/overview/"
+        "url": "https://developer.paypal.com/docs/api/overview/",
+        "featured": true
     },
     {
         "id": "square",
         "name": "Square API",
         "category": "Payments",
         "description": "Payment processing, inventory, and customer management",
-        "url": "https://developer.squareup.com/"
+        "url": "https://developer.squareup.com/",
+        "featured": true
     },
     {
         "id": "razorpay",
         "name": "Razorpay",
         "category": "Payments",
         "description": "Payment gateway for Indian businesses with UPI support",
-        "url": "https://razorpay.com/docs/api/"
+        "url": "https://razorpay.com/docs/api/",
+        "featured": true
     },
     {
         "id": "braintree",
         "name": "Braintree",
         "category": "Payments",
         "description": "Full-stack payment platform owned by PayPal",
-        "url": "https://developer.paypal.com/braintree/docs"
+        "url": "https://developer.paypal.com/braintree/docs",
+        "featured": true
     },
     {
         "id": "plaid",
         "name": "Plaid",
         "category": "Payments",
         "description": "Connect with users' bank accounts for payments and data",
-        "url": "https://plaid.com/docs/"
+        "url": "https://plaid.com/docs/",
+        "featured": true
     },
     {
         "id": "aws",
         "name": "AWS APIs",
         "category": "Cloud Services",
         "description": "Amazon Web Services cloud platform APIs",
-        "url": "https://docs.aws.amazon.com/"
+        "url": "https://docs.aws.amazon.com/",
+        "featured": true
     },
     {
         "id": "gcp",
         "name": "Google Cloud APIs",
         "category": "Cloud Services",
         "description": "Google Cloud Platform services and APIs",
-        "url": "https://cloud.google.com/apis"
+        "url": "https://cloud.google.com/apis",
+        "featured": true
     },
     {
         "id": "azure",
         "name": "Azure APIs",
         "category": "Cloud Services",
         "description": "Microsoft Azure cloud services and REST APIs",
-        "url": "https://docs.microsoft.com/en-us/rest/api/azure/"
+        "url": "https://docs.microsoft.com/en-us/rest/api/azure/",
+        "featured": true
     },
     {
         "id": "digitalocean",
         "name": "DigitalOcean API",
         "category": "Cloud Services",
         "description": "Cloud infrastructure management for droplets and services",
-        "url": "https://docs.digitalocean.com/reference/api/"
+        "url": "https://docs.digitalocean.com/reference/api/",
+        "featured": true
     },
     {
         "id": "vercel",
         "name": "Vercel API",
         "category": "Cloud Services",
         "description": "Deploy and manage Vercel projects and domains",
-        "url": "https://vercel.com/docs/rest-api"
+        "url": "https://vercel.com/docs/rest-api",
+        "featured": true
     },
     {
         "id": "netlify",
         "name": "Netlify API",
         "category": "Cloud Services",
         "description": "Manage Netlify sites, deploys, and build hooks",
-        "url": "https://docs.netlify.com/api/get-started/"
+        "url": "https://docs.netlify.com/api/get-started/",
+        "featured": true
     },
     {
         "id": "firebase",
         "name": "Firebase",
         "category": "Cloud Services",
         "description": "Google's app development platform with realtime database",
-        "url": "https://firebase.google.com/docs/reference"
+        "url": "https://firebase.google.com/docs/reference",
+        "featured": true
     },
     {
         "id": "supabase",
         "name": "Supabase",
         "category": "Cloud Services",
         "description": "Open source Firebase alternative with PostgreSQL",
-        "url": "https://supabase.com/docs"
+        "url": "https://supabase.com/docs",
+        "featured": true
     },
     {
         "id": "auth0",
         "name": "Auth0",
         "category": "Authentication",
         "description": "Authentication and authorization platform for apps",
-        "url": "https://auth0.com/docs/api"
+        "url": "https://auth0.com/docs/api",
+        "featured": true
     },
     {
         "id": "okta",
         "name": "Okta",
         "category": "Authentication",
         "description": "Identity and access management APIs",
-        "url": "https://developer.okta.com/docs/reference/"
+        "url": "https://developer.okta.com/docs/reference/",
+        "featured": true
     },
     {
         "id": "clerk",
         "name": "Clerk",
         "category": "Authentication",
         "description": "User authentication and management for modern apps",
-        "url": "https://clerk.com/docs/reference/backend-api"
+        "url": "https://clerk.com/docs/reference/backend-api",
+        "featured": true
     },
     {
         "id": "magic-link",
         "name": "Magic",
         "category": "Authentication",
         "description": "Passwordless authentication with magic links and WebAuthn",
-        "url": "https://magic.link/docs"
+        "url": "https://magic.link/docs",
+        "featured": true
     },
     {
         "id": "spoonacular",
         "name": "Spoonacular",
         "category": "Food & Recipes",
         "description": "Recipe, ingredient, and nutrition data API",
-        "url": "https://spoonacular.com/food-api"
+        "url": "https://spoonacular.com/food-api",
+        "featured": true
     },
     {
         "id": "edamam",
         "name": "Edamam",
         "category": "Food & Recipes",
         "description": "Nutrition analysis and recipe search API",
-        "url": "https://developer.edamam.com/"
+        "url": "https://developer.edamam.com/",
+        "featured": true
     },
     {
         "id": "themealdb",
         "name": "TheMealDB",
         "category": "Food & Recipes",
         "description": "Open meal and recipe database",
-        "url": "https://www.themealdb.com/api.php"
+        "url": "https://www.themealdb.com/api.php",
+        "featured": true
     },
     {
         "id": "cocktaildb",
         "name": "TheCocktailDB",
         "category": "Food & Recipes",
         "description": "Open cocktail and drink recipes database",
-        "url": "https://www.thecocktaildb.com/api.php"
+        "url": "https://www.thecocktaildb.com/api.php",
+        "featured": true
     },
     {
         "id": "openbrewerydb",
         "name": "Open Brewery DB",
         "category": "Food & Recipes",
         "description": "Brewery data from around the world",
-        "url": "https://www.openbrewerydb.org/"
+        "url": "https://www.openbrewerydb.org/",
+        "featured": true
     },
     {
         "id": "skyscanner",
         "name": "Skyscanner",
         "category": "Travel",
         "description": "Flight search and comparison API",
-        "url": "https://developers.skyscanner.net/"
+        "url": "https://developers.skyscanner.net/",
+        "featured": true
     },
     {
         "id": "amadeus",
         "name": "Amadeus",
         "category": "Travel",
         "description": "Flight booking, hotel search, and travel APIs",
-        "url": "https://developers.amadeus.com/"
+        "url": "https://developers.amadeus.com/",
+        "featured": true
     },
     {
         "id": "aviationstack",
         "name": "Aviationstack",
         "category": "Travel",
         "description": "Real-time flight status and aviation data",
-        "url": "https://aviationstack.com/"
+        "url": "https://aviationstack.com/",
+        "featured": true
     },
     {
         "id": "booking",
         "name": "Booking.com",
         "category": "Travel",
         "description": "Hotel and accommodation search and booking",
-        "url": "https://developers.booking.com/"
+        "url": "https://developers.booking.com/",
+        "featured": true
     },
     {
         "id": "tripadvisor",
         "name": "Tripadvisor",
         "category": "Travel",
         "description": "Travel reviews, ratings, and location content",
-        "url": "https://tripadvisor-content-api.readme.io/"
+        "url": "https://tripadvisor-content-api.readme.io/",
+        "featured": true
     },
     {
         "id": "sportsdb",
         "name": "TheSportsDB",
         "category": "Sports",
         "description": "Sports data including teams, players, and events",
-        "url": "https://www.thesportsdb.com/api.php"
+        "url": "https://www.thesportsdb.com/api.php",
+        "featured": true
     },
     {
         "id": "api-football",
         "name": "API-Football",
         "category": "Sports",
         "description": "Football/soccer data covering 860+ leagues",
-        "url": "https://www.api-football.com/"
+        "url": "https://www.api-football.com/",
+        "featured": true
     },
     {
         "id": "balldontlie",
         "name": "BallDontLie",
         "category": "Sports",
         "description": "Free NBA statistics and player data API",
-        "url": "https://www.balldontlie.io/"
+        "url": "https://www.balldontlie.io/",
+        "featured": true
     },
     {
         "id": "nfl-data",
         "name": "NFL Data",
         "category": "Sports",
         "description": "NFL game data, scores, and statistics",
-        "url": "https://nfl-data-py.readthedocs.io/"
+        "url": "https://nfl-data-py.readthedocs.io/",
+        "featured": true
     },
     {
         "id": "countries",
         "name": "CountryStateCity",
         "category": "Data & Analytics",
         "description": "Global database of countries, states, and cities",
-        "url": "https://countrystatecity.in/"
+        "url": "https://countrystatecity.in/",
+        "featured": true
     },
     {
         "id": "genderize",
         "name": "Genderize.io",
         "category": "Data & Analytics",
         "description": "Predict gender based on first name",
-        "url": "https://genderize.io/"
+        "url": "https://genderize.io/",
+        "featured": true
     },
     {
         "id": "agify",
         "name": "Agify.io",
         "category": "Data & Analytics",
         "description": "Predict age based on first name",
-        "url": "https://agify.io/"
+        "url": "https://agify.io/",
+        "featured": true
     },
     {
         "id": "nationalize",
         "name": "Nationalize.io",
         "category": "Data & Analytics",
         "description": "Predict nationality based on first name",
-        "url": "https://nationalize.io/"
+        "url": "https://nationalize.io/",
+        "featured": true
+    },
+    {
+        "id": "youtube-transcript-scraper",
+        "name": "YouTube Transcript Scraper",
+        "category": "Scraping",
+        "description": "Extract transcripts and captions from YouTube videos automatically",
+        "url": "https://apify.com/supreme_coder/youtube-transcript-scraper",
+        "featured": false
+    },
+    {
+        "id": "x-scraper",
+        "name": "X/Twitter Scraper",
+        "category": "Scraping",
+        "description": "Scrape tweets, profiles, and followers from X (Twitter)",
+        "url": "https://apify.com/mikolabs/x-scraper",
+        "featured": false
+    },
+    {
+        "id": "leads-finder",
+        "name": "Leads Finder",
+        "category": "Scraping",
+        "description": "Find business leads with emails - Apollo alternative",
+        "url": "https://apify.com/code_crafter/leads-finder",
+        "featured": false
+    },
+    {
+        "id": "linkedin-scraper",
+        "name": "LinkedIn Profile Scraper",
+        "category": "Scraping",
+        "description": "Extract LinkedIn profiles and company data",
+        "url": "https://apify.com/anchor/linkedin-scraper",
+        "featured": false
+    },
+    {
+        "id": "instagram-scraper",
+        "name": "Instagram Scraper",
+        "category": "Scraping",
+        "description": "Scrape Instagram posts, profiles, and hashtags",
+        "url": "https://apify.com/apify/instagram-scraper",
+        "featured": false
+    },
+    {
+        "id": "tiktok-scraper",
+        "name": "TikTok Scraper",
+        "category": "Scraping",
+        "description": "Extract TikTok videos, profiles, and comments",
+        "url": "https://apify.com/clockworks/tiktok-scraper",
+        "featured": false
+    },
+    {
+        "id": "amazon-scraper",
+        "name": "Amazon Product Scraper",
+        "category": "Scraping",
+        "description": "Scrape Amazon product data, prices, and reviews",
+        "url": "https://apify.com/junglee/amazon-crawler",
+        "featured": false
+    },
+    {
+        "id": "google-maps-scraper",
+        "name": "Google Maps Scraper",
+        "category": "Scraping",
+        "description": "Extract business listings from Google Maps",
+        "url": "https://apify.com/compass/google-maps-scraper",
+        "featured": false
+    },
+    {
+        "id": "indeed-scraper",
+        "name": "Indeed Job Scraper",
+        "category": "Scraping",
+        "description": "Scrape job listings from Indeed",
+        "url": "https://apify.com/misceres/indeed-scraper",
+        "featured": false
+    },
+    {
+        "id": "zillow-scraper",
+        "name": "Zillow Scraper",
+        "category": "Scraping",
+        "description": "Extract real estate listings from Zillow",
+        "url": "https://apify.com/maxcopell/zillow-scraper",
+        "featured": false
+    },
+    {
+        "id": "shopify-scraper",
+        "name": "Shopify Store Scraper",
+        "category": "E-commerce",
+        "description": "Scrape products from any Shopify store",
+        "url": "https://apify.com/apify/shopify-scraper",
+        "featured": false
+    },
+    {
+        "id": "ebay-scraper",
+        "name": "eBay Scraper",
+        "category": "E-commerce",
+        "description": "Extract product listings from eBay",
+        "url": "https://apify.com/dtrungtin/ebay-scraper",
+        "featured": false
+    },
+    {
+        "id": "walmart-scraper",
+        "name": "Walmart Scraper",
+        "category": "E-commerce",
+        "description": "Scrape Walmart product data and prices",
+        "url": "https://apify.com/epctex/walmart-scraper",
+        "featured": false
+    },
+    {
+        "id": "aliexpress-scraper",
+        "name": "AliExpress Scraper",
+        "category": "E-commerce",
+        "description": "Extract product data from AliExpress",
+        "url": "https://apify.com/epctex/aliexpress-scraper",
+        "featured": false
+    },
+    {
+        "id": "etsy-scraper",
+        "name": "Etsy Scraper",
+        "category": "E-commerce",
+        "description": "Scrape Etsy product listings and shops",
+        "url": "https://apify.com/dtrungtin/etsy-scraper",
+        "featured": false
+    },
+    {
+        "id": "redfin-scraper",
+        "name": "Redfin Scraper",
+        "category": "Real Estate",
+        "description": "Extract real estate listings from Redfin",
+        "url": "https://apify.com/maxcopell/redfin-scraper",
+        "featured": false
+    },
+    {
+        "id": "realtor-scraper",
+        "name": "Realtor.com Scraper",
+        "category": "Real Estate",
+        "description": "Scrape property listings from Realtor.com",
+        "url": "https://apify.com/maxcopell/realtor-scraper",
+        "featured": false
+    },
+    {
+        "id": "airbnb-scraper",
+        "name": "Airbnb Scraper",
+        "category": "Real Estate",
+        "description": "Extract Airbnb listings and host data",
+        "url": "https://apify.com/dtrungtin/airbnb-scraper",
+        "featured": false
+    },
+    {
+        "id": "booking-scraper",
+        "name": "Booking.com Scraper",
+        "category": "Real Estate",
+        "description": "Scrape hotel listings from Booking.com",
+        "url": "https://apify.com/dtrungtin/booking-scraper",
+        "featured": false
+    },
+    {
+        "id": "trulia-scraper",
+        "name": "Trulia Scraper",
+        "category": "Real Estate",
+        "description": "Extract property listings from Trulia",
+        "url": "https://apify.com/maxcopell/trulia-scraper",
+        "featured": false
+    },
+    {
+        "id": "linkedin-jobs-scraper",
+        "name": "LinkedIn Jobs Scraper",
+        "category": "Jobs",
+        "description": "Scrape job listings from LinkedIn",
+        "url": "https://apify.com/bebity/linkedin-jobs-scraper",
+        "featured": false
+    },
+    {
+        "id": "glassdoor-scraper",
+        "name": "Glassdoor Scraper",
+        "category": "Jobs",
+        "description": "Extract job listings and company reviews from Glassdoor",
+        "url": "https://apify.com/epctex/glassdoor-scraper",
+        "featured": false
+    },
+    {
+        "id": "monster-scraper",
+        "name": "Monster Jobs Scraper",
+        "category": "Jobs",
+        "description": "Scrape job listings from Monster.com",
+        "url": "https://apify.com/misceres/monster-scraper",
+        "featured": false
+    },
+    {
+        "id": "dice-scraper",
+        "name": "Dice Tech Jobs Scraper",
+        "category": "Jobs",
+        "description": "Extract tech job listings from Dice",
+        "url": "https://apify.com/misceres/dice-scraper",
+        "featured": false
+    },
+    {
+        "id": "ziprecruiter-scraper",
+        "name": "ZipRecruiter Scraper",
+        "category": "Jobs",
+        "description": "Scrape job listings from ZipRecruiter",
+        "url": "https://apify.com/misceres/ziprecruiter-scraper",
+        "featured": false
+    },
+    {
+        "id": "yelp-scraper",
+        "name": "Yelp Scraper",
+        "category": "Reviews",
+        "description": "Extract business reviews from Yelp",
+        "url": "https://apify.com/apify/yelp-scraper",
+        "featured": false
+    },
+    {
+        "id": "tripadvisor-scraper",
+        "name": "TripAdvisor Scraper",
+        "category": "Reviews",
+        "description": "Scrape hotel and restaurant reviews from TripAdvisor",
+        "url": "https://apify.com/maxcopell/tripadvisor-scraper",
+        "featured": false
+    },
+    {
+        "id": "trustpilot-scraper",
+        "name": "Trustpilot Scraper",
+        "category": "Reviews",
+        "description": "Extract company reviews from Trustpilot",
+        "url": "https://apify.com/epctex/trustpilot-scraper",
+        "featured": false
+    },
+    {
+        "id": "g2-scraper",
+        "name": "G2 Reviews Scraper",
+        "category": "Reviews",
+        "description": "Scrape software reviews from G2",
+        "url": "https://apify.com/epctex/g2-scraper",
+        "featured": false
+    },
+    {
+        "id": "capterra-scraper",
+        "name": "Capterra Scraper",
+        "category": "Reviews",
+        "description": "Extract software reviews from Capterra",
+        "url": "https://apify.com/epctex/capterra-scraper",
+        "featured": false
+    },
+    {
+        "id": "ai-content-writer",
+        "name": "AI Content Writer",
+        "category": "AI Tools",
+        "description": "Generate SEO-optimized content with AI",
+        "url": "https://apify.com/erinle_sam/ai-content-writer",
+        "featured": false
+    },
+    {
+        "id": "ai-image-generator",
+        "name": "AI Image Generator",
+        "category": "AI Tools",
+        "description": "Generate images using AI models",
+        "url": "https://apify.com/easyapi/ai-art-generator",
+        "featured": false
+    },
+    {
+        "id": "ai-lead-qualifier",
+        "name": "AI Lead Qualifier",
+        "category": "AI Tools",
+        "description": "Qualify sales leads using AI analysis",
+        "url": "https://apify.com/quaking_pail/ai-lead-qualifier",
+        "featured": false
+    },
+    {
+        "id": "ai-company-researcher",
+        "name": "AI Company Researcher",
+        "category": "AI Tools",
+        "description": "Research companies using AI agents",
+        "url": "https://apify.com/bala-ceg/ai-company-researcher",
+        "featured": false
+    },
+    {
+        "id": "ai-content-detector",
+        "name": "AI Content Detector",
+        "category": "AI Tools",
+        "description": "Detect AI-generated content in text",
+        "url": "https://apify.com/muhammetakkurtt/ai-content-detector",
+        "featured": false
+    },
+    {
+        "id": "seo-audit-tool",
+        "name": "SEO Audit Tool",
+        "category": "Marketing",
+        "description": "Comprehensive website SEO analysis",
+        "url": "https://apify.com/smart-digital/complete-seo-audit-tool",
+        "featured": false
+    },
+    {
+        "id": "backlink-checker",
+        "name": "Backlink Checker",
+        "category": "Marketing",
+        "description": "Find and analyze website backlinks",
+        "url": "https://apify.com/daniil.poletaev/backlink-building-agent",
+        "featured": false
+    },
+    {
+        "id": "keyword-research",
+        "name": "Keyword Research Tool",
+        "category": "Marketing",
+        "description": "Discover long-tail keywords for SEO",
+        "url": "https://apify.com/powerai/long-tail-keyword-discovery",
+        "featured": false
+    },
+    {
+        "id": "facebook-ads-scraper",
+        "name": "Facebook Ads Library Scraper",
+        "category": "Marketing",
+        "description": "Scrape ads from Facebook Ad Library",
+        "url": "https://apify.com/agenscrape/facebook-ad-library-scraper",
+        "featured": false
+    },
+    {
+        "id": "google-ads-scraper",
+        "name": "Google Ads Scraper",
+        "category": "Marketing",
+        "description": "Extract Google Ads data and creatives",
+        "url": "https://apify.com/epctex/google-ads-scraper",
+        "featured": false
+    },
+    {
+        "id": "news-scraper",
+        "name": "Advanced News Scraper",
+        "category": "News",
+        "description": "Scrape news articles from various sources",
+        "url": "https://apify.com/dorcy/advanced-news-scraper",
+        "featured": false
+    },
+    {
+        "id": "ai-news-feed",
+        "name": "AI News Feed",
+        "category": "News",
+        "description": "Latest AI and tech news aggregator",
+        "url": "https://apify.com/patrikbraborec/ai-news",
+        "featured": false
+    },
+    {
+        "id": "ai-hype-tracker",
+        "name": "AI Hype Tracker",
+        "category": "News",
+        "description": "Track trending AI topics daily",
+        "url": "https://apify.com/wheat_tourist/ai-hype-tracker",
+        "featured": false
+    },
+    {
+        "id": "ai-web-scraper",
+        "name": "AI Web Scraper",
+        "category": "Developer Tools",
+        "description": "Intelligent web scraping with AI",
+        "url": "https://apify.com/raizen/ai-web-scraper",
+        "featured": false
+    },
+    {
+        "id": "markdown-maker",
+        "name": "AI Markdown Maker",
+        "category": "Developer Tools",
+        "description": "Convert content to markdown with AI",
+        "url": "https://apify.com/onescales/bulk-ai-markdown-maker",
+        "featured": false
+    },
+    {
+        "id": "pdf-extractor",
+        "name": "PDF Data Extractor",
+        "category": "Developer Tools",
+        "description": "Extract data from PDF documents",
+        "url": "https://apify.com/zayn_0001/extractor-from-pdf-url",
+        "featured": false
+    },
+    {
+        "id": "code-review",
+        "name": "AI Code Review Agent",
+        "category": "Developer Tools",
+        "description": "Automated code review with AI",
+        "url": "https://apify.com/fiery_dream/ai-code-review-agent",
+        "featured": false
+    },
+    {
+        "id": "readme-generator",
+        "name": "README Generator",
+        "category": "Developer Tools",
+        "description": "Generate README files with AI",
+        "url": "https://apify.com/jkuzz/actor-readme-generator-agent",
+        "featured": false
+    },
+    {
+        "id": "flight-travel-agent",
+        "name": "Flight Travel Agent",
+        "category": "Travel",
+        "description": "Plan flights with AI assistance",
+        "url": "https://apify.com/jakub.kopecky/flight-travel-agent",
+        "featured": false
+    },
+    {
+        "id": "ai-travel-agent",
+        "name": "AI Travel Agent",
+        "category": "Travel",
+        "description": "Plan trips with AI assistance",
+        "url": "https://apify.com/harvestlabs/ai-travel-agent",
+        "featured": false
+    },
+    {
+        "id": "expedia-scraper",
+        "name": "Expedia Scraper",
+        "category": "Travel",
+        "description": "Extract travel deals from Expedia",
+        "url": "https://apify.com/hello.datawizards/expedia-review-scraper-pro",
+        "featured": false
+    },
+    {
+        "id": "company-contact",
+        "name": "Company Contact Scraper",
+        "category": "Business",
+        "description": "Find company emails and contacts",
+        "url": "https://apify.com/fatihtahta/waterfall-contact-enricher",
+        "featured": false
+    },
+    {
+        "id": "competitive-intel",
+        "name": "Competitive Intelligence Agent",
+        "category": "Business",
+        "description": "Monitor competitors with AI",
+        "url": "https://apify.com/apify/competitive-intelligence-agent",
+        "featured": false
+    },
+    {
+        "id": "swot-analysis",
+        "name": "SWOT Analysis Tool",
+        "category": "Business",
+        "description": "Generate SWOT analysis with AI",
+        "url": "https://apify.com/powerai/swot-business-analysis-tool",
+        "featured": false
+    },
+    {
+        "id": "company-analysis",
+        "name": "Company Analysis Agent",
+        "category": "Business",
+        "description": "Deep company analysis with AI",
+        "url": "https://apify.com/harvestlabs/company-analysis-ai-agent",
+        "featured": false
+    },
+    {
+        "id": "email-campaign",
+        "name": "Email Campaign Creator",
+        "category": "Utilities",
+        "description": "Create email campaigns with AI",
+        "url": "https://apify.com/easyapi/email-campaign-creator",
+        "featured": false
+    },
+    {
+        "id": "linkedin-posts",
+        "name": "LinkedIn Posts Generator",
+        "category": "Utilities",
+        "description": "Generate LinkedIn posts with AI",
+        "url": "https://apify.com/easyapi/linkedin-posts-generator",
+        "featured": false
+    },
+    {
+        "id": "twitter-thread",
+        "name": "Twitter Thread Generator",
+        "category": "Utilities",
+        "description": "Create Twitter threads with AI",
+        "url": "https://apify.com/easyapi/twitter-thread-generator",
+        "featured": false
+    },
+    {
+        "id": "steam-scraper",
+        "name": "Steam Game Scraper",
+        "category": "Entertainment",
+        "description": "Scrape game data from Steam",
+        "url": "https://apify.com/epctex/steam-scraper",
+        "featured": false
+    },
+    {
+        "id": "box-office",
+        "name": "Box Office Tracker",
+        "category": "Entertainment",
+        "description": "Track movie box office performance",
+        "url": "https://apify.com/deadline/box-office",
+        "featured": false
+    },
+    {
+        "id": "imdb-scraper",
+        "name": "IMDb Scraper",
+        "category": "Entertainment",
+        "description": "Scrape movie and TV data from IMDb",
+        "url": "https://apify.com/epctex/imdb-scraper",
+        "featured": false
+    },
+    {
+        "id": "quiz-maker",
+        "name": "AI Quiz Maker",
+        "category": "Utilities",
+        "description": "Generate quizzes with AI",
+        "url": "https://apify.com/harvestlabs/ai-quiz-maker",
+        "featured": false
+    },
+    {
+        "id": "question-generator",
+        "name": "AI Question Generator",
+        "category": "Utilities",
+        "description": "Generate study questions with AI",
+        "url": "https://apify.com/sunvic567/ai-question-generator",
+        "featured": false
+    },
+    {
+        "id": "dribbble-scraper",
+        "name": "Dribbble Scraper",
+        "category": "Utilities",
+        "description": "Scrape design shots from Dribbble",
+        "url": "https://apify.com/practicaltools/apify-dribbble-scraper",
+        "featured": false
+    },
+    {
+        "id": "figma-scraper",
+        "name": "Figma Community Scraper",
+        "category": "Utilities",
+        "description": "Extract community files from Figma",
+        "url": "https://apify.com/eliaalberti/figma-community-scraper",
+        "featured": false
+    },
+    {
+        "id": "logo-generator",
+        "name": "AI Logo Generator",
+        "category": "Utilities",
+        "description": "Generate logos with AI",
+        "url": "https://apify.com/dxbear/ai-logo-generator",
+        "featured": false
+    },
+    {
+        "id": "chess-analyzer",
+        "name": "Chess Puzzle Analyzer",
+        "category": "Sports",
+        "description": "Analyze chess puzzles from Lichess",
+        "url": "https://apify.com/mrahil/chess-puzzle-analyzer",
+        "featured": false
+    },
+    {
+        "id": "draftkings-scraper",
+        "name": "DraftKings Scraper",
+        "category": "Sports",
+        "description": "Scrape fantasy sports data from DraftKings",
+        "url": "https://apify.com/syntellect_ai/draftkings-api-actor",
+        "featured": false
+    },
+    {
+        "id": "autotrader-scraper",
+        "name": "AutoTrader Scraper",
+        "category": "Utilities",
+        "description": "Scrape car listings from AutoTrader",
+        "url": "https://apify.com/dr.ollie/autotrader-com-fast-cheap-scraper",
+        "featured": false
+    },
+    {
+        "id": "craigslist-cars",
+        "name": "Craigslist Car Hunter",
+        "category": "Utilities",
+        "description": "Find cars on Craigslist",
+        "url": "https://apify.com/querulous_daisy/craigslist-car-scraper",
+        "featured": false
     }
 ]
