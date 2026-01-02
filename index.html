@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="API Explorer - Discover, search, and bookmark APIs from a curated mega list">
+    <title>API Explorer | Discover APIs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Terminal Scanline Effect -->
+    <div class="scanline"></div>
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-bracket">[</span>
+                <span class="logo-text">API_Explorer</span>
+                <span class="logo-bracket">]</span>
+                <span class="cursor">_</span>
+            </div>
+            <div class="header-stats">
+                <span class="stat" id="totalCount">
+                    <span class="stat-label">TOTAL:</span>
+                    <span class="stat-value">0</span>
+                </span>
+                <span class="stat" id="bookmarkCount">
+                    <span class="stat-label">SAVED:</span>
+                    <span class="stat-value">0</span>
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <!-- Search Section -->
+            <section class="search-section">
+                <div class="search-wrapper">
+                    <span class="search-prefix">$</span>
+                    <input 
+                        type="text" 
+                        id="searchInput" 
+                        class="search-input" 
+                        placeholder="search --api [query]"
+                        autocomplete="off"
+                    >
+                    <span class="search-cursor">|</span>
+                </div>
+                <p class="search-hint">
+                    <span class="hint-key">TIP:</span> Search by name or description
+                </p>
+            </section>
+
+            <!-- Category Filter -->
+            <section class="category-section">
+                <div class="category-pills" id="categoryPills">
+                    <!-- Categories will be injected here -->
+                </div>
+            </section>
+
+            <!-- Filter Controls -->
+            <section class="filter-controls">
+                <button class="filter-btn" id="showAllBtn">
+                    <span class="btn-icon">◉</span> All APIs
+                </button>
+                <button class="filter-btn" id="showBookmarksBtn">
+                    <span class="btn-icon">★</span> Bookmarks Only
+                </button>
+                <div class="result-count" id="resultCount">
+                    <span class="count-value">0</span> results
+                </div>
+            </section>
+
+            <!-- API Grid -->
+            <section class="api-grid" id="apiGrid">
+                <!-- API Cards will be injected here -->
+            </section>
+
+            <!-- Empty State -->
+            <section class="empty-state" id="emptyState">
+                <div class="empty-icon">⚠</div>
+                <h3 class="empty-title">No APIs Found</h3>
+                <p class="empty-text">Try a different search term or category</p>
+            </section>
+
+            <!-- Loading State -->
+            <section class="loading-state" id="loadingState">
+                <div class="loader"></div>
+                <p>Loading APIs...</p>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">
+                <span class="footer-bracket">{</span>
+                Built with HTML, CSS & JavaScript
+                <span class="footer-bracket">}</span>
+            </p>
+            <p class="footer-credit">
+                Data sourced from <a href="https://github.com/cporter202/API-mega-list" target="_blank" rel="noopener">API Mega List</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
