@@ -135,6 +135,13 @@ body::before {
     align-items: center;
 }
 
+.logo-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: var(--space-sm);
+    border-radius: var(--radius-sm);
+}
+
 .logo-bracket {
     color: var(--accent-primary);
 }
